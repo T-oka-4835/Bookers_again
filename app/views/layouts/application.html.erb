@@ -38,7 +38,7 @@
             <%= link_to "Home", root_path %>
             </li>
           <li class="header-nav glyphicon glyphicon-link about">
-            <%= link_to "About", homes_about_path %>
+            <%= link_to "About", home_about_path %>
             </li>
           <li class="header-nav glyphicon glyphicon-edit sign_up">
             <%= link_to "sign up", new_user_registration_path %>
@@ -51,8 +51,11 @@
 
       </div>
     </header>
-    
+
   <body>
+    <p id = "notice">
+      <%= notice %>
+    </p>
     <%= yield %>
   </body>
 </html>
