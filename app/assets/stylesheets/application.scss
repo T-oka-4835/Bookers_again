@@ -47,3 +47,91 @@
   padding: 15px 15px;
   text-decoration: none;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.header-title {
+  color: white;
+  float: left;
+  font-size: 20px;
+  paddong-top: 10px;
+}
+
+.header-nav-div{
+  float: right;
+}
+
+.header-nav {
+  float: left;
+  list-style: none;
+  color: #9d9d9d;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+.nav-list {
+  color: #9d9d9d;
+}
+
+.new-book {
+  font-size: 30px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.book_title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.book_opinion {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  margin-top: 10px;
+}
+
+.edit_book_title {
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.book_edit_title {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.edit_opinion {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.sign_up_btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login_btn {
+  margin-bottom: 10px;
+}
+
+.no-image {
+  width: 40px;
+  height: 40px;
+}

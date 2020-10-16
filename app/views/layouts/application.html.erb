@@ -9,14 +9,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+
     <header>
       <div class="container">
-      <nav class="nav navbar-nav navbar-left header-title">
+      <nav class="header-title">
         <span>Bookers</span>
       </nav>
 
-      <nav>
+
         <ul class="nav navbar-nav navbar-right">
 
           <% if user_signed_in? %>
@@ -48,9 +48,11 @@
             </li>
           <% end %>
         </ul>
-      </nav>
+
       </div>
     </header>
+    
+  <body>
     <%= yield %>
   </body>
 </html>

@@ -1,5 +1,9 @@
 <h2>User info</h2>
 
+<p>
+  <%= notice %>
+</p>
+
 <%= attachment_image_tag user, :profile_image, :fill, 100, 100, format: 'jpeg', fallback: "no_image.jpg" %>
 
 <table class="table">
@@ -21,7 +25,7 @@
   <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
   <% end %>
 
-<h2>New book</h2>
+<h4 class="new-book">New book</h4>
 <%= form_with model:book, local:true do |f| %>
 <div>
   <div class="book_title">Title</div>
